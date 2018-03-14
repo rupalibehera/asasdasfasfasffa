@@ -35,7 +35,7 @@ mavenNode {
 
 if (utils.isCD()){
   node {
-    stage('Approve'){
+    stage('Approve and this is canary deployment'){
        approve {
          room = null
          version = canaryVersion
